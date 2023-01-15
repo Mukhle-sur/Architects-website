@@ -351,6 +351,7 @@ main .container {
     line-height: 53px;
     font-weight: 700;
     color: #131313;
+    margin-bottom: 20px;
 }
 
 .spons-title p {
@@ -368,7 +369,9 @@ main .container {
     justify-content: space-between;
     align-items: center;
 }
-
+.sponspore-parrent .logo img{
+    filter: grayscale();
+}
 /* footer-area */
 .footer-area {
     margin-top: 120px;
@@ -389,4 +392,69 @@ main .container {
     line-height: 23px;
     font-weight: 400;
     color: #424242;
+}
+
+/* team-membar-area */
+
+.team-membar-area {
+    margin-top: 100px;
+}
+
+.team-membar-parrent {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.team-membar img {
+    width: 100%;
+}
+
+.team-info h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #131313;
+    margin-top: 6px;
+}
+
+.team-info p {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #727272;
+    margin-top: 4px;
+}
+
+.team-info .button .primary-btn {
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 5px;
+    margin-top: 12px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+.team-info .button .primary-btn:hover{
+    background: #FFFFFF;
+    color: #FF900E;
+}
+
+.team-membar {
+    padding: 20px;
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+}
+.button-extra{
+    text-align: end;
+}
+.button-extra a{
+    padding: 0;
+}
+.button-extra a i{
+    font-size: 16px;
 }
